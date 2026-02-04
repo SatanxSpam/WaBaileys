@@ -47,7 +47,7 @@ const client = makeWASocket({
   // Other options
 });
 
-const number = "628XXXXX";
+const number = "20XXXXX";
 const code = await client.requestPairingCode(number.trim) /* Use : (number, "YYYYYYYY") for custom-pairing */
 
 console.log("Ur pairing code : " + code)
@@ -63,7 +63,7 @@ const ZeppImg = fs.readFileSync('./ZeppImage');
 await client.sendMessage(m.chat, {
   thumbnail: ZeppImg,
   message: "Gotta get a grip",
-  orderTitle: "7eppeli-Corporation",
+  orderTitle: "Satan-Corporation",
   totalAmount1000: 72502,
   totalCurrencyCode: "IDR"
 }, { quoted:m })
@@ -73,7 +73,7 @@ await client.sendMessage(m.chat, {
 ```javascript
 await client.sendMessage(m.chat, {
   pollResultMessage: {
-    name: "7eppeli-Corporation",
+    name: "Satan-Corporation",
     options: [
       {
         optionName: "poll 1"
@@ -83,7 +83,7 @@ await client.sendMessage(m.chat, {
       }
     ],
     newsletter: {
-      newsletterName: "7eppeli | Killer Queen Information",
+      newsletterName: "SatanXspam | Killer Queen Information",
       newsletterJid: "1@newsletter"
     }
   }
@@ -94,18 +94,18 @@ await client.sendMessage(m.chat, {
 ```javascript
 await client.relayMessage(m.chat, {
   productMessage {
-    title: "7eppeli.pdf",
-    description: "zZZ...",
+    title: "Satan X Spam",
+    description: "XSPAM...",
     thumbnail: { url: "./ZeppImage" },
     productId: "EXAMPLE_TOKEN",
     retailerId: "EXAMPLE_RETAILER_ID",
-    url: "https://t.me/YuukeyD7eppeli",
-    body: "Nak Tido",
+    url: "https://t.me/ffooxxo",
+    body: "Hola Satan",
     footer: "Footer",
     buttons: [
       {
         name: "cta_url",
-        buttonParamsJson: "{\"display_text\":\"7eppeli-Pdf\",\"url\":\"https://t.me/YuukeyD7eppeli\"}"
+        buttonParamsJson: "{\"display_text\":\"Satan-XSPAM\",\"url\":\"https://t.me/ffooxxo\"}"
       }
     ],
     priceAmount1000: 72502,
