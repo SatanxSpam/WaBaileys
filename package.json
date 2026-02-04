@@ -5,12 +5,12 @@
     "keywords": [
         "whatsapp-baileys"
     ],
-    "homepage": "https://github.com/qwerty-xcv/Baileys",
+    "homepage": "https://github.com/SatanxSpam/WaBaileys",
     "repository": {
-        "url": "https://github.com/qwerty-xcv/Baileys"
+        "url": "https://github.com/SatanxSpam/WaBaileys"
     },
     "license": "MIT",
-    "author": "7eppeli.pdf",
+    "author": "Satan - XSPAM",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
     "files": [
@@ -101,6 +101,6 @@
         "node": ">=20.0.0"
     }, 
     "bugs": {
-      "url": "https://qwerty-xcv/Baileys/issues"
+      "url": "https://SatanxSpam/WaBaileys/issues"
     }
 }
